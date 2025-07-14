@@ -37,9 +37,8 @@ El objeto principal de este proyecto es `MapGenerator`, que es el que controla t
 - El tamaño del mapa.
 - Escala de ruido, octavas, persistencia y lacunaridad, parámetros relacionados con el ruido a partir del cual se genera el mapa.
 - Semilla y offset.
-- Mesh Height Multiplier y Mesh Height Curve, que, sin modificar los datos del mapa, controla lo exageradas que se ven las diferencias en altitud a la hora de mostrar el mapa en 3D.
+- `MeshHeightMultiplier` y `MeshHeightCurve`, que, sin modificar los datos del mapa, controla lo exageradas que se ven las diferencias en altitud a la hora de mostrar el mapa en 3D.
 - Las distintas regiones del mapa, en las que podremos especificar el color de cada una, su nombre y la altura en la que empiezan.
-Para comenzar, asegúrate de que el objeto `RoomGenerator` esté **activo** y que el objeto `RoomLoader` esté **inactivo**. Puedes cambiar su estado con clic derecho > *Toggle Active State* en el panel de jerarquía de Unity.
 
 ![Paránetros de MapGenerator](images/mapGenerator.jpg)
 
